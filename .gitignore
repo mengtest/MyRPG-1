@@ -10,3 +10,5 @@ Temp
 *.csproj
 *.sln
 obj/
+/Assets/Z_test
+/Assets/Z_test.meta

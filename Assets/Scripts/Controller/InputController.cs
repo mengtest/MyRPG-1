@@ -4,8 +4,12 @@ using System.Collections;
 
 class Repeater
 {
-	const float threshold = 0.5f;
-	const float rate = 0.25f;
+	const float threshold = 0.5f;//临界值，从最初按下开始到开始重复输入操作的等待时间
+    const float rate = 0.25f;//输入操作重复的速率
+
+    /// <summary>
+    /// 标记目标时间点
+    /// </summary>
 	float _next;
 	bool _hold;
 	string _axis;
